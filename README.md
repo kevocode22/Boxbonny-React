@@ -16,7 +16,8 @@
 -Shopping cart working with controllers in backend and local storage<br>
 -Database working with Mongodb<br>
 -Text filters and search engine for packs<br>
--Our web app is tested with LightHouse and designed for the accesibility of all users.
+-Our web app is tested with LightHouse and designed for the accesibility of all users.<br>
+-This app was builded in spanish language.
 
 
 </p>
