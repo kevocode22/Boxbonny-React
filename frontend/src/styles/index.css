@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* min-height: 100vh; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fontPoppins{
+  font-family: 'Poppins', sans-serif;
+}
+
+.fontRaleway{
+  font-family: 'Raleway', sans-serif;
+}
+
+.fontRalewayItalic{
+  font-family: 'Raleway';
+  font-style: italic;
+}
+
+.svg-scroll{
+  display: initial;
+}
+
+.text-base{
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 2rem;
+}
+.box-bonny{
+  padding: .5rem;
+  font-size: 1.5rem;
+  padding-top: 1.5rem;
+}
+.mt-10{
+  margin-top: 4rem;
+}
+
+.items-center{
+ padding: 1rem;
+}
+
+
+@media (max-width: 400px) {
+  .logo {
+    display: none;
+  }
+} 
+
+@media(max-width:768px){
+  .como-funcionan{
+font-size: 2rem;
+  }
+
+}
+
+
+
+

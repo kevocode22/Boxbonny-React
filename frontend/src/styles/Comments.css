@@ -1,0 +1,285 @@
+.l-dropdown {
+    width: 80%;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 2rem !important;
+}
+
+.MuiPaper-root{
+max-width: 90% !important;
+}
+
+.l-comments-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: .5rem !important;
+    background-color: rgba(255, 255, 255, 0.774);
+    padding: .5rem;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0 #393E41;
+}
+
+#scroll-dialog-title{
+    font-family: "Poppins";
+    color: #393E41;
+}
+
+.button-cerrar{
+    font-family: "Poppins" !important;
+    color: #393E41 !important; 
+}
+
+.l-commentsmodif-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.l-usuario-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: .5rem;
+}
+
+@media(max-width:380px){
+    .l-usuario-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        gap: .5rem;
+    }
+}
+
+.l-avatar {
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.l-nombreusuario {
+    font-size: .9rem;
+}
+
+@media(max-width:820px){
+    .l-nombreusuario {
+        font-size: .8rem;
+    }
+}
+
+@media(max-width:470px){
+    .l-nombreusuario {
+        font-size: .6rem;
+    }
+}
+
+.comment-box {
+    width: 40rem;
+    border: .5px solid #393E41 !important;
+    border-radius: 15px;
+    background-color: white !important;
+    padding: .5rem;
+    padding-left: 1rem;
+    font-size: .9rem !important;
+}
+
+@media(max-width:820px){
+    .comment-box {
+        width: 20rem;
+        font-size: .7rem !important;
+    }
+}
+
+@media(max-width:470px){
+    .comment-box {
+        width: 15rem;
+        font-size: .6rem !important;
+    }
+}
+
+@media(max-width:360px){
+    .comment-box {
+        width: 12rem;
+        font-size: .6rem !important;
+    }
+}
+
+.comment-box-commented {
+    width: 80%;
+    padding: 1rem;
+    font-size: .9rem !important;
+}
+
+.l-textraiting {
+    font-family: "Poppins";
+    color: #393E41;
+}
+
+
+.l-buttons-cont{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin: .5rem;
+} 
+ .l-btnclose{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    
+ }
+
+ .login-button-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    font-family: "Raleway";
+    font-weight: bolder;
+ }
+
+ .invitation{
+    font-size: 1rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    padding: 2rem;
+ }
+
+ @media(max-width: 560px){
+    .invitation{
+        font-size: .8rem;
+        padding-bottom: 2rem;
+        text-align: center;
+        padding: 1rem;
+     }
+     .l-card-button-comments{
+        padding: .5rem !important;
+        font-size: .8rem !important;
+     }
+ }
+
+ @media(max-width: 386px){
+    .invitation{
+        padding: 0rem;
+     }
+ }
+
+ .l-card-button-comments{
+    padding: 1rem;
+    font-size: .9rem;
+ }
+
+ .valoracion-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .rating-text{
+    color: #393E41;
+    padding-bottom: 1rem;
+    font-family: "Poppins";
+ }
+
+ .MuiButton-text{
+    display: flex;
+    flex-direction: column;
+    color: #393E41 !important;
+    font-family: "Poppins" !important;
+    border-radius: 20px !important;
+    padding: 1rem !important;
+    
+ }
+
+ .MuiButton-text:hover{
+ background-color: #393e4133 !important;
+    
+ }
+
+ @media(max-width: 470px){
+    .css-ryrseu-MuiRating-root{
+        font-size: 1rem !important;
+    }
+    .css-iljtu2-MuiRating-root{
+        font-size: 1rem !important;
+    }
+ }
+
+ .MuiRating-readyOnly{
+    margin-top: 1rem;
+ }
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.l-btnclose {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+
+}
+
+
+
+
+
+.comments-container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.l-daterating {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.MuiBox-root {
+    width: 100%;
+    padding: 0 !important;
+}
+
+.MuiFormControl-root {
+    width: 100%;
+}*/
+
+
+
+

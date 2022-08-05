@@ -1,0 +1,28 @@
+.rating-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stars-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 5vh;
+}
+
+.starinput{
+    display: none;
+}
+
+.star{
+    cursor: pointer;
+    transition: color 200ms;
+}
+
+.rating-text{
+    color: #393E41;
+    font-family: "Poppins";
+    font-size: .8rem;
+}

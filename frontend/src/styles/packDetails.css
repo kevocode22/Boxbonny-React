@@ -1,0 +1,444 @@
+.E-container-gral {
+    padding-bottom: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-body-packs {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: space-between;
+    width: 100%;
+}
+
+.packsCarrito {
+    font-weight: bold;
+    color: black;
+}
+
+@media(max-width: 880px) {
+    .container-body-packs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+.pack-titulo {
+    width: 40%;
+    margin-right: 2rem;
+    margin-top: 3rem;
+}
+
+@media(max-width: 1024px) {
+    .pack-titulo {
+        width: 50%;
+        margin-right: 5rem;
+        margin-top: 3rem;
+    }
+}
+
+@media(max-width: 880px) {
+    .pack-titulo {
+        width: 90%;
+        margin: 3rem !important;
+    }
+}
+
+@media(max-width: 420px) {
+    .pack-titulo {
+        width: 80%;
+        margin: 1rem !important;
+    }
+}
+
+.titulo-pdetails {
+    margin-bottom: .5rem;
+    font-family: 'Poppins';
+    font-weight: bolder;
+    font-size: 4.5rem;
+    text-shadow: 0px 8px 45px gray;
+    color: #393E41;
+    text-align: center;
+    letter-spacing: .5rem;
+}
+
+.titleCards {
+    color: #393E41;
+}
+
+@media(max-width:980px) {
+    .titulo-pdetails {
+        margin-bottom: .5rem;
+        font-family: 'Poppins';
+        font-weight: bolder;
+        font-size: 4rem;
+    }
+}
+
+@media(max-width:880px) {
+    .titulo-pdetails {
+        margin-bottom: .5rem;
+        font-family: 'Poppins';
+        font-weight: bolder;
+        font-size: 3.5rem;
+    }
+}
+
+@media(max-width:420px) {
+    .titulo-pdetails {
+        margin-bottom: .5rem;
+        font-family: 'Poppins';
+        font-weight: bolder;
+        font-size: 2.5rem;
+    }
+}
+
+.descripcion-pdetails {
+    font-family: 'Poppins';
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: #34373a;
+    margin-top: 2rem;
+}
+
+@media(max-width:980px) {
+    .descripcion-pdetails {
+        font-family: 'Poppins';
+        text-align: center;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+        color: #393E41;
+        margin-top: 2rem;
+    }
+}
+
+.precio-pack {
+    margin-top: 3.5rem;
+    font-size: 1.5rem;
+    text-shadow: 0px 8px 45px rgb(255, 255, 255);
+    font-weight: BOLD;
+}
+
+@media(max-width:980px) {
+    .precio-pack {
+        margin-top: 3.5rem;
+        font-size: 1.2rem;
+        text-shadow: 0px 8px 45px rgb(255, 255, 255);
+        font-weight: BOLD;
+    }
+}
+
+.mensaje-pack {
+    font-size: 2rem;
+    margin-top: 3rem;
+    color: #393E41;
+    text-align: center;
+    letter-spacing: .5rem;
+    font-family: "Poppins";
+    padding-bottom: 3rem;
+    border-bottom: 2px solid;
+}
+
+@media(max-width:980px) {
+    .mensaje-pack {
+        font-size: 1.5rem;
+        margin-top: 3rem;
+        text-shadow: 0px 8px 45px grey;
+        color: black;
+        text-align: center;
+        letter-spacing: .5rem;
+        font-family: "Poppins";
+        padding-bottom: 3rem;
+        border-bottom: 2px solid #cc5132;
+    }
+}
+
+@media(max-width:880px) {
+    .mensaje-pack {
+        font-size: 1.2rem;
+        margin-top: 3rem;
+        text-shadow: 0px 8px 45px grey;
+        color: black;
+        text-align: center;
+        letter-spacing: .5rem;
+        font-family: "Poppins";
+        padding-bottom: 3rem;
+        border-bottom: 2px solid #cc5132;
+    }
+}
+
+
+.filter-cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    margin-right: 2rem;
+    width: 60%;
+    height: 100%;
+}
+
+@media(max-width: 1024px) {
+    .filter-cards-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: space-between;
+        margin-right: 2rem;
+        width: 50%;
+        height: 100%;
+    }
+}
+
+.filtro-provincias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    height: 20%;
+    width: 100%;
+}
+
+
+.contenedor-experiencias {
+    display: flex;
+    justify-content: center;
+    margin: 2vh;
+    flex-wrap: wrap;
+    padding-top: 5vh;
+    height: 80%;
+}
+
+@media(max-width: 880px) {
+    .filter-cards-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: space-between;
+        margin: 0 !important;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+.e-card {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    background: #f5f5f5;
+    box-shadow: 0px 12px 15px grey;
+    margin: .5rem;
+    border-radius: 3vh;
+}
+
+@media(max-width: 880px) {
+    .e-card {
+        width: 300px;
+        height: 300px;
+        position: relative;
+        background: #f5f5f5;
+        box-shadow: 0px 12px 15px grey;
+        margin: .5rem;
+        border-radius: 3vh;
+    }
+}
+
+.e-card-container {
+    height: 254px;
+    width: 190px;
+    border-radius: 3vh;
+    box-shadow: 0px 12px 15px grey;
+}
+
+.e-card:before {
+    background: rgba(0, 0, 0, 0.482);
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    transition: 0.5s;
+    border-radius: 3vh;
+}
+
+.e-card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 190px;
+    height: 100%;
+    padding: .5rem;
+}
+
+.e-card-img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #ff792c;
+    object-fit: cover;
+    border-radius: 3vh;
+}
+
+.e-card-info {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    height: 100%;
+
+}
+
+.e-card-button {
+    margin-top: 3rem;
+}
+
+.l-card-buttonp {
+    margin-top: 2rem;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.e-card-icon {
+    opacity: 0;
+    transform: translateX(-20%);
+    width: 2em;
+    height: 2em;
+    transition: all .3s ease-in-out;
+}
+
+.e-svg {
+    --size: 20px;
+    width: var(--size);
+    height: var(--size);
+    /* color: #F6F7EB; */
+}
+
+
+
+.e-text-title {
+    color: #F6F7EB;
+    font-weight: 900;
+    height: 4rem;
+    width: 100%;
+    font-size: 22px;
+    z-index: 5;
+    text-align: center;
+    text-shadow: 0px 15px 20px grey;
+}
+
+.e-text-subtitle {
+    color: #F6F7EB;
+    font-weight: 500;
+    font-size: 16px;
+    z-index: 5;
+}
+
+
+.e-card:hover {
+    box-shadow: 0 10px 20px 4px rgba(35, 35, 35, .1);
+}
+
+.e-card:hover .e-card-icon {
+    opacity: 1;
+    transform: translateX(20%);
+}
+
+.filter-title {
+    font-family: "Poppins";
+    font-size: .9rem;
+    margin-bottom: .5rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.filter-title-filter {
+    font-family: "Poppins";
+    margin-bottom: .5rem;
+    margin-top: 2rem;
+    font-size: .9rem;
+}
+
+.select-filter {
+    border-radius: 20px;
+    width: 100%;
+    font-family: "Raleway";
+    border: none;
+    border: 2px solid #FF8E72 !important;
+    border-radius: 20px;
+    width: 100%;
+    font-size: .9rem;
+}
+
+.select-filter option:after {
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    width: 100%;
+    font-family: "Raleway";
+    border: none;
+    border: 2px solid #FF8E72 !important;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.formulario-filter {
+    padding: 0;
+    display: flex;
+    width: 50%;
+}
+
+@media(max-width: 880px) {
+    .formulario-filter {
+        padding: 0;
+        display: flex;
+        width: 40%;
+    }
+}
+
+@media(max-width:560px) {
+    .formulario-filter {
+        padding: 0;
+        display: flex;
+        width: 60%;
+    }
+}
+
+.elegi-details {
+    text-align: center;
+    width: 100%;
+    color: #393E41;
+    font-size: 1.4rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+}
+
+@media(max-width:769px) {
+    .elegi-details {
+        font-size: 1.2rem;
+        padding-left: 1rem;
+        text-align: center;
+    }
+}
+
+@media(max-width:426px) {
+    .elegi-details {
+        font-size: .9rem;
+        padding-left: 1rem;
+        text-align: center;
+    }
+}
