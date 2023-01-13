@@ -3,7 +3,7 @@ import axios from "axios";
 const experienciasActions = {
     getExperiencias: () => {
       return async (dispatch, getState) => {
-         const res = await axios.get("https://boxbonny-back.herokuapp.com/api/experiencias");
+         const res = await axios.get("https://boxbonnyback.onrender.com/api/experiencias");
          dispatch({ type: "GETEXPERIENCIAS", payload: res.data.response.experiencia });
       };
    },
@@ -11,7 +11,7 @@ const experienciasActions = {
    getOneExperiencia: (id) => {
       // console.log("IDDD",id)
       return async (dispatch, getState) => {
-         const res = await axios.get(`https://boxbonny-back.herokuapp.com/api/experiencias/${id}`);
+         const res = await axios.get(`https://boxbonnyback.onrender.com/api/experiencias/${id}`);
          dispatch({ type: "GETONEEXPERIENCIA", payload: res.data.response.experiencia });
       };
    },
@@ -25,7 +25,7 @@ const experienciasActions = {
    addExperiencia: (formData) => {
       const token = localStorage.getItem('token')
       return async(dispatch, getState) => {
-         const res = await axios.post("https://boxbonny-back.herokuapp.com/api/adminUpload", formData,
+         const res = await axios.post("https://boxbonnyback.onrender.com/api/adminUpload", formData,
          {headers:{
             "Authorization": "Bearer "+token
          }
@@ -44,7 +44,7 @@ const experienciasActions = {
 
    getExperienciasByPack: (id) => {
       return async (dispatch, getState) => {
-          const res = await axios.get(`https://boxbonny-back.herokuapp.com/api/experienciabypack/${id}`)
+          const res = await axios.get(`https://boxbonnyback.onrender.com/api/experienciabypack/${id}`)
           // console.log(res)
           dispatch({ type: 'GETEXPERIENCIASBYPACK', payload: res.data.response })
           return res
