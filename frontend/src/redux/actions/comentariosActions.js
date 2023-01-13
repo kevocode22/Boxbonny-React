@@ -8,7 +8,7 @@ const comentariosActions = {
         return async (dispatch, getState) => {
             try{
             const token = localStorage.getItem("token")
-            const res = await axios.post("https://boxbonny-back.herokuapp.com/api/experiencias/comment", {comentario}, {
+            const res = await axios.post("https://boxbonnyback.onrender.com/api/experiencias/comment", {comentario}, {
                 headers: {
                     "Authorization": "Bearer " + token
                 }
@@ -29,7 +29,7 @@ const comentariosActions = {
         const token = localStorage.getItem('token')
         return async (dispatch, getState) => {
             try{
-                const res = await axios.put("https://boxbonny-back.herokuapp.com/api/modifcomment", {...comentario }, {
+                const res = await axios.put("https://boxbonnyback.onrender.com/api/modifcomment", {...comentario }, {
                     headers: {
                         'Authorization': 'Bearer '+token
                     }
@@ -58,7 +58,7 @@ const comentariosActions = {
     DeleteComment: (id) => {
         const token = localStorage.getItem("token")
         return async (dispatch, getState) => {
-            const res = await axios.post(`https://boxbonny-back.herokuapp.com/api/experiencias/comment/${id}`, {}, {
+            const res = await axios.post(`https://boxbonnyback.onrender.com/api/experiencias/comment/${id}`, {}, {
                 headers: {
                     "Authorization": "Bearer " + token
                 }
